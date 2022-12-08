@@ -1,0 +1,7 @@
+{
+  "name": "Anis_Aufgabe1",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

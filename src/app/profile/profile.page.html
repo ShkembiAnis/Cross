@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Profile</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list *ngFor="let note of notes" (click)="openNote(note)">
+    <ion-item>
+      <ion-label>
+        Name -> {{note.name}}
+      </ion-label>
+      <ion-label>
+        Pass -> {{note.pass}}
+      </ion-label>
+      <ion-label>
+        Email -> {{note.email}}
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
